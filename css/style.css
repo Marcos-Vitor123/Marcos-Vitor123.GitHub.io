@@ -1,0 +1,210 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.favicon {
+    width: 16px;
+    height: 16px;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    font-size: 70px;
+    padding: 5px;
+    margin: 5px;
+    top: 30px;
+    
+}
+
+nav {
+    position: absolute;
+    top: 250px;
+}
+
+.caixa {
+    position: relative;
+    width: 1050px;
+    margin: 0 auto;
+     
+}
+
+
+ nav li {
+     display: inline;
+     margin: 0 0 0 15px;
+
+ }    
+ 
+ nav a {
+     text-transform: uppercase;
+     color: #FFFFFF;
+     font-weight: bold;
+     font-size: 40px;
+     text-decoration: none;
+     
+     
+     
+ }
+ 
+ nav a:hover {
+     color: #00FF00;
+     text-decoration: underline;
+     font-size: 50px;
+ }
+ 
+ .banner {
+     width: 100%;
+     height: 700px;
+}
+
+ .subtitulo {
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 140px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.principal {
+    background-image: url('./images/Programação-para-web-Highlight.jpg');
+    background-size: cover;
+    background: #008080;
+    margin: 0px;
+    padding:20px;
+    color: #FFFFFF;
+}
+   
+.imagens-certificados {
+    width: 700px;
+    height: 450px;
+}
+
+.principal li:hover {
+    border-color: #00FF00;
+}
+
+.principal li:hover h2 {
+    font-size: 34px;
+}
+
+.principal li:active {
+    border-color: #0000FF;
+}
+
+.principal h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main {
+    
+    display: block;
+       
+}
+
+main a {
+    FONT-VARIANT: JIS04;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+main a img {
+    width: 150px;
+    height: 50px;
+}
+
+main a:hover {
+    color: #00FF00;
+}
+
+main a:active {
+    color: #0000FF;
+}
+
+.principal p {
+    font-size: 20px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 35px;
+}
+
+div li {
+    display: inline;
+}
+
+.imagens {
+    width: 50px;
+    height: 50px;
+}
+
+.imagens:hover {
+    width: 75px;
+    height: 75px;
+}
+
+footer {
+    margin: 50px 0 50px 0;
+    text-align: center;
+}
+
+.logo-rodape {
+    border-radius: 100%;
+}
+
+@media screen and (max-width:480px) {
+    width: auto;
+}
+
+nav {
+    position: relative;
+    left: 30px;
+}
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.video {
+    width: 940px;
+    margin: 2em auto;
+}
+

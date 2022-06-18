@@ -1,0 +1,71 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    font-size: 70px;
+    padding: 5px;
+    margin: 5px;
+    top: 40px;
+}
+
+
+nav {
+    position: absolute;
+    top: 250px;
+}
+
+.caixa {
+    position: relative;
+    width: 1050px;
+    margin: 0 auto;
+}
+
+ 
+ nav li {
+     display: inline;
+     margin: 0 0 0 15px;
+}
+ 
+ nav a {
+     text-transform: uppercase;
+     color: #FFFFFF;
+     font-weight: bold;
+     font-size: 40px;
+     text-decoration: none;
+         
+}
+ 
+ nav a:hover {
+     color: #00FF00;
+     text-decoration: underline;
+     font-size: 50px;
+}
+ 
+ .banner {
+     width: 100%;
+     height: 700px;
+ }
+
+ .subtitulo {
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+}
+
+@media screen and (max-width:480px) 
+   {
+            width: auto;
+    }
+
+nav {
+    position: relative;
+    left: 30px;
+}
